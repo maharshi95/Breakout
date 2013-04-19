@@ -21,7 +21,9 @@ public class Breakout extends GraphicsProgram {
 	public static final int APPLICATION_WIDTH = 400;
 	public static final int APPLICATION_HEIGHT = 600;
 
-/** Dimensions of game board (usually the same) */
+/** Dimensions of game board
+ *  Should not be used directly (use getWidth()/getHeight() instead).
+ *  * */
 	private static final int WIDTH = APPLICATION_WIDTH;
 	private static final int HEIGHT = APPLICATION_HEIGHT;
 
